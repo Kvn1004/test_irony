@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoIronyCS.sol.com.analizador;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,13 @@ namespace test_irony
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string entrada = txtEntrada.Text;
+            Sintactico sin = new Sintactico();
+            sin.analizar(entrada);
         }
     }
 }
