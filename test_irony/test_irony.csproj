@@ -66,6 +66,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="Analizador\Gramatica.cs" />
+    <Compile Include="Analizador\Sintactico.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
