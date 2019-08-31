@@ -30,7 +30,7 @@ namespace test_irony
         {
             string entrada = txtEntrada.Text;
             Sintactico sin = new Sintactico();
-            sin.analizar(entrada);
+            sin.Analizar(entrada);
         }
     }
 }
